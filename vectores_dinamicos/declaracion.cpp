@@ -35,7 +35,7 @@ int main()
     }
     cout<<endl;
     datos.erase(datos.begin()+2,datos.begin()+4);
-    cout<< "Nuevos elementos de datos: "<<endl;
+    cout<< "Nuevo elementos de datos: "<<endl;
     for(auto x:datos){
         cout<<x<<" ";
     }

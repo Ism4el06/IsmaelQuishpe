@@ -4,13 +4,13 @@
 using namespace std;
 int main()
 {
-    string nombre= "Freddy";
-    string apellido("Jaramillo");
-    string inicial(1, 'f');
-    string cadena= "Juan Jose Arturo";
+    string nombre= "Ismael";
+    string apellido("Quishpe");
+    string inicial(1, 'I');
+    string cadena= "Arboleda Salazar Ismael";
     string nombre2(cadena,5);
     cout<< "La longitud de nombre2 es: "<<nombre2.length()<<endl;
-    inicial += "reddy";
+    inicial += "smael";
     cout<<inicial[0]<<endl;
     cout<<inicial<<endl;
     inicial = "cad";

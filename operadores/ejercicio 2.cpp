@@ -1,4 +1,3 @@
-//uso del operador ternario
 #include <iostream>
 using namespace std;
 main(){

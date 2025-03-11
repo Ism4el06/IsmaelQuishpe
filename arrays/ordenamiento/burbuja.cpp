@@ -1,4 +1,4 @@
-//https://github.com/Freddy-j-am/freddyjaramillo_1946
+//https://github.com/Ism4el06/IsmaelQuishpe
 //no pude separar los procesos
 #include <iostream>
 #include <stdlib.h>
@@ -70,10 +70,10 @@ void mostrarVector(int v[], int n){
 int mejorOpcion(int a, int b, int c){
     if (a<b && a<c)
         return a;
-        if (b<c && b<a)
-            return b;
-            else
-                return c;
+    if (b<c && b<a)
+        return b;
+    else
+        return c;
     }
 main(){
     int ne,a,b,c;

@@ -1,10 +1,12 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+
 void cambiarElemento(vector <int> &num){
     num[0]=100;
 }
-main()
+
+int main()
 {
     vector <int> datos, datos1;
     vector <float> notas(3, 4.5);//inicializa tres elementos con 4.5
@@ -14,7 +16,7 @@ main()
     datos.push_back(40);
     datos.push_back(50);
     datos1=datos;
-    for(int i=0; i<datos.size();i++)
+    for(size_t i=0; i<datos.size();i++)
     {
         cout<<datos[i]<<" ";
     }
@@ -69,6 +71,7 @@ main()
     for(auto x:datos){
         cout<<x<<" ";
     }
-    cout<<boolalpha<<endlfsfggirthj;
+    cout<<boolalpha<<endl;
     cout<<datos.empty();
+    return 0;
 }

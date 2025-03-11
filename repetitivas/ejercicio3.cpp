@@ -23,4 +23,3 @@ main(){
         }
         cout<< "La suma de los valores es: "<<total<<endl;
     }
-}

@@ -2,9 +2,6 @@
 #include "../librerias/adivinanza.h"
 using namespace std;
 using namespace adivinanza;
-
-
-
 int main() {
     int ri, rs;
     cout << "Ingrese el rango inferior: ";

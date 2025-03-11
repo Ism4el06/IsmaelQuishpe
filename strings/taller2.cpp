@@ -12,7 +12,6 @@ main()
     cout << cadena1<<endl;
     cadena1.at(0) = 'I'; //metodo at accede a un indice de la cadena cadena1[0]
     cout << cadena1<<endl;
-    //usando el metodo front y back para cambiar los caracteres inicio y final
     cadena1.front()='i';
     cadena1.back()='A';
     cout <<cadena1<<endl;

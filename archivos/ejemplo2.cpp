@@ -1,4 +1,3 @@
-// leer archivo completo
 #include <iostream>
 #include <fstream>
 #include <string>

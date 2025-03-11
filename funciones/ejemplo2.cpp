@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-//cuerpo de las funciones
 int mayor(int a, int b)
 {
     if (a>b)

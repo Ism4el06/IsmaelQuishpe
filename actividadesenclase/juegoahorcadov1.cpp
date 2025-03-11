@@ -24,7 +24,6 @@ void mostrarAhorcado(int intentos) {
 int main() {
     srand(time(0));  
 
-    // Lista de palabras y sus categorías
     string palabras[][2] = {
         {"futbol", "Deporte"},
         {"shakira", "Cantante"},
